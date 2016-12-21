@@ -1,7 +1,6 @@
 *.pyc
 workspace.xml
 .idea
-*.html
 *.log
 *.bat
 .settings
