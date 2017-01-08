@@ -199,7 +199,7 @@ logger	D:\00_project\blog\migrations\env.py	/^logger = logging.getLogger('alembi
 logging	D:\00_project\blog\migrations\env.py	/^import logging$/;"	kind:namespace	line:5
 login	D:\00_project\blog\app\auth\views.py	/^def login():$/;"	kind:function	line:8
 login	D:\00_project\blog\test\examples\micoblog\app\views.py	/^def login():$/;"	kind:function	line:33
-login	D:\00_project\blog\test\examples\wtf0108\app\views.py	/^def login():$/;"	kind:function	line:11
+login	D:\00_project\blog\test\examples\wtf0108\app\views.py	/^def login():$/;"	kind:function	line:13
 login	D:\00_project\blog\test\examples\wtftmp2 - ¸±±¾\app\views.py	/^def login():$/;"	kind:function	line:13
 login_manager	D:\00_project\blog\app\__init__.py	/^login_manager = LoginManager()$/;"	kind:variable	line:22
 login_manager	D:\00_project\blog\app\models.py	/^from . import db, login_manager$/;"	kind:namespace	line:3

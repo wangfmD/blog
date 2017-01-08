@@ -1,10 +1,3 @@
-# _*_ coding: utf-8 _*_
-"""
-  errors.py
-  Desc:
-  Maintainer: wangfm
-  CreateDate: 2016/12/28
-"""
 from flask import render_template
 from . import main
 
