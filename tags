@@ -1,0 +1,310 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Blueprint	D:\00_project\blog\app\auth\__init__.py	/^from flask import Blueprint$/;"	kind:namespace	line:1
+Blueprint	D:\00_project\blog\app\main\__init__.py	/^from flask import Blueprint$/;"	kind:namespace	line:9
+BooleanField	D:\00_project\blog\app\auth\forms.py	/^from wtforms import StringField, PasswordField, BooleanField, SubmitField$/;"	kind:namespace	line:2
+BooleanField	D:\00_project\blog\test\examples\micoblog\app\forms.py	/^from wtforms import TextField, BooleanField$/;"	kind:namespace	line:2
+BooleanField	D:\00_project\blog\test\examples\wtf0108\app\forms.py	/^from wtforms import TextField, BooleanField$/;"	kind:namespace	line:5
+BooleanField	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\forms.py	/^from wtforms import TextField, BooleanField$/;"	kind:namespace	line:4
+Bootstrap	D:\00_project\blog\app\__init__.py	/^from flask_bootstrap import Bootstrap$/;"	kind:namespace	line:10
+Bootstrap	D:\00_project\blog\hello.py	/^from flask_bootstrap import Bootstrap$/;"	kind:namespace	line:16
+CSRF_ENABLED	D:\00_project\blog\test\examples\micoblog\config.py	/^CSRF_ENABLED = True$/;"	kind:variable	line:3
+CSRF_ENABLED	D:\00_project\blog\test\examples\wtftmp2 - 副本\config.py	/^CSRF_ENABLED = True$/;"	kind:variable	line:4
+Celery	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\test.py	/^from celery import Celery$/;"	kind:namespace	line:1
+Config	D:\00_project\blog\config.py	/^class Config:$/;"	kind:class	line:5
+DEBUG	D:\00_project\blog\config.py	/^    DEBUG = True$/;"	kind:variable	line:23
+DevelopmentConfig	D:\00_project\blog\config.py	/^class DevelopmentConfig(Config):$/;"	kind:class	line:22
+Email	D:\00_project\blog\app\auth\forms.py	/^from wtforms.validators import Required, Length, Email, Regexp, EqualTo, ValidationError$/;"	kind:namespace	line:3
+EqualTo	D:\00_project\blog\app\auth\forms.py	/^from wtforms.validators import Required, Length, Email, Regexp, EqualTo, ValidationError$/;"	kind:namespace	line:3
+FLASKY_ADMIN	D:\00_project\blog\config.py	/^    FLASKY_ADMIN = os.environ.get('FLASKY_ADMIN')$/;"	kind:variable	line:15
+FLASKY_MAIL_SENDER	D:\00_project\blog\config.py	/^    FLASKY_MAIL_SENDER = 'Flasky Admin <flasky@example.com>'$/;"	kind:variable	line:14
+FLASKY_MAIL_SUBJECT_PREFIX	D:\00_project\blog\config.py	/^    FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'$/;"	kind:variable	line:13
+FileNotFoundError	D:\00_project\blog\hello.py	/^from ptyprocess.ptyprocess import FileNotFoundError$/;"	kind:namespace	line:20
+Flask	D:\00_project\blog\app\__init__.py	/^from flask import Flask, render_template$/;"	kind:namespace	line:9
+Flask	D:\00_project\blog\hello.py	/^from flask import Flask, render_template ,flash, redirect$/;"	kind:namespace	line:12
+Flask	D:\00_project\blog\test\examples\micoblog\app\__init__.py	/^from flask import Flask$/;"	kind:namespace	line:1
+Flask	D:\00_project\blog\test\examples\wtf0108\app\__init__.py	/^from flask import Flask$/;"	kind:namespace	line:1
+Flask	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\__init__.py	/^from flask import Flask$/;"	kind:namespace	line:3
+Form	D:\00_project\blog\app\auth\forms.py	/^from flask_wtf import Form$/;"	kind:namespace	line:1
+Form	D:\00_project\blog\app\main\forms.py	/^from flask_wtf import Form$/;"	kind:namespace	line:1
+Form	D:\00_project\blog\hello.py	/^from flask_wtf import Form$/;"	kind:namespace	line:19
+Form	D:\00_project\blog\test\examples\micoblog\app\forms.py	/^from flask_wtf import Form$/;"	kind:namespace	line:1
+Form	D:\00_project\blog\test\examples\wtf0108\app\forms.py	/^from flask_wtf import Form$/;"	kind:namespace	line:4
+Form	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\forms.py	/^from flask_wtf import Form$/;"	kind:namespace	line:3
+Length	D:\00_project\blog\app\auth\forms.py	/^from wtforms.validators import Required, Length, Email, Regexp, EqualTo, ValidationError$/;"	kind:namespace	line:3
+LoginForm	D:\00_project\blog\app\auth\forms.py	/^class LoginForm(Form):$/;"	kind:class	line:29
+LoginForm	D:\00_project\blog\app\auth\views.py	/^from .forms import LoginForm$/;"	kind:namespace	line:5
+LoginForm	D:\00_project\blog\test\examples\micoblog\app\forms.py	/^class LoginForm(Form):$/;"	kind:class	line:6
+LoginForm	D:\00_project\blog\test\examples\micoblog\app\views.py	/^from forms import LoginForm$/;"	kind:namespace	line:3
+LoginForm	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\forms.py	/^class LoginForm(Form):$/;"	kind:class	line:8
+LoginForm	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\views.py	/^from forms import LoginForm$/;"	kind:namespace	line:5
+LoginManager	D:\00_project\blog\app\__init__.py	/^from flask_login import LoginManager$/;"	kind:namespace	line:15
+LonginForm	D:\00_project\blog\test\examples\wtf0108\app\forms.py	/^class LonginForm(Form):$/;"	kind:class	line:9
+LonginForm	D:\00_project\blog\test\examples\wtf0108\app\views.py	/^from forms import LonginForm$/;"	kind:namespace	line:3
+MAIL_PASSWORD	D:\00_project\blog\config.py	/^    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')$/;"	kind:variable	line:12
+MAIL_PORT	D:\00_project\blog\config.py	/^    MAIL_PORT = 587$/;"	kind:variable	line:9
+MAIL_SERVER	D:\00_project\blog\config.py	/^    MAIL_SERVER = 'smtp.googlemail.com'$/;"	kind:variable	line:8
+MAIL_USERNAME	D:\00_project\blog\config.py	/^    MAIL_USERNAME = os.environ.get('MAIL_USERNAME')$/;"	kind:variable	line:11
+MAIL_USE_TLS	D:\00_project\blog\config.py	/^    MAIL_USE_TLS = True$/;"	kind:variable	line:10
+Mail	D:\00_project\blog\app\__init__.py	/^from flask_mail import Mail$/;"	kind:namespace	line:11
+Mail	D:\00_project\blog\hello.py	/^from flask_mail import Mail, Message$/;"	kind:namespace	line:25
+Manager	D:\00_project\blog\hello.py	/^from flask_script import Manager$/;"	kind:namespace	line:15
+Manager	D:\00_project\blog\manage.py	/^from flask_script import Manager, Shell$/;"	kind:namespace	line:11
+Message	D:\00_project\blog\app\email.py	/^from flask_mail import Message$/;"	kind:namespace	line:11
+Message	D:\00_project\blog\hello.py	/^from flask_mail import Mail, Message$/;"	kind:namespace	line:25
+Migrate	D:\00_project\blog\hello.py	/^from flask_migrate import Migrate, MigrateCommand$/;"	kind:namespace	line:24
+Migrate	D:\00_project\blog\manage.py	/^from flask_migrate import Migrate, MigrateCommand$/;"	kind:namespace	line:10
+MigrateCommand	D:\00_project\blog\hello.py	/^from flask_migrate import Migrate, MigrateCommand$/;"	kind:namespace	line:24
+MigrateCommand	D:\00_project\blog\manage.py	/^from flask_migrate import Migrate, MigrateCommand$/;"	kind:namespace	line:10
+Moment	D:\00_project\blog\app\__init__.py	/^from flask_moment import Moment$/;"	kind:namespace	line:12
+Moment	D:\00_project\blog\hello.py	/^from flask_moment import Moment$/;"	kind:namespace	line:17
+NameForm	D:\00_project\blog\app\main\forms.py	/^class NameForm(Form):$/;"	kind:class	line:6
+NameForm	D:\00_project\blog\hello.py	/^class NameForm(Form):$/;"	kind:class	line:84
+OPENID_PROVIDERS	D:\00_project\blog\test\examples\micoblog\config.py	/^OPENID_PROVIDERS = [{$/;"	kind:variable	line:5
+PasswordField	D:\00_project\blog\app\auth\forms.py	/^from wtforms import StringField, PasswordField, BooleanField, SubmitField$/;"	kind:namespace	line:2
+ProductionConfig	D:\00_project\blog\config.py	/^class ProductionConfig(Config):$/;"	kind:class	line:35
+Regexp	D:\00_project\blog\app\auth\forms.py	/^from wtforms.validators import Required, Length, Email, Regexp, EqualTo, ValidationError$/;"	kind:namespace	line:3
+RegistrationForm	D:\00_project\blog\app\auth\forms.py	/^class RegistrationForm(Form):$/;"	kind:class	line:8
+Required	D:\00_project\blog\app\auth\forms.py	/^from wtforms.validators import Required, Length, Email, Regexp, EqualTo, ValidationError$/;"	kind:namespace	line:3
+Required	D:\00_project\blog\app\main\forms.py	/^from wtforms.validators import Required$/;"	kind:namespace	line:3
+Required	D:\00_project\blog\hello.py	/^from wtforms.validators import Required$/;"	kind:namespace	line:22
+Required	D:\00_project\blog\test\examples\micoblog\app\forms.py	/^from wtforms.validators import Required$/;"	kind:namespace	line:3
+Required	D:\00_project\blog\test\examples\wtf0108\app\forms.py	/^from wtforms.validators import Required$/;"	kind:namespace	line:6
+Required	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\forms.py	/^from wtforms.validators import Required$/;"	kind:namespace	line:5
+Role	D:\00_project\blog\app\models.py	/^class Role(db.Model):$/;"	kind:class	line:6
+Role	D:\00_project\blog\hello.py	/^class Role(db.Model):$/;"	kind:class	line:64
+Role	D:\00_project\blog\manage.py	/^from app.models import User, Role$/;"	kind:namespace	line:14
+SECRET_KEY	D:\00_project\blog\config.py	/^    SECRET_KEY = os.environ.get('SECRET_KEY') or 'hard to guess string'$/;"	kind:variable	line:6
+SECRET_KEY	D:\00_project\blog\test\examples\micoblog\config.py	/^SECRET_KEY = 'secret'$/;"	kind:variable	line:2
+SECRET_KEY	D:\00_project\blog\test\examples\wtftmp2 - 副本\config.py	/^SECRET_KEY = 'secret'$/;"	kind:variable	line:3
+SQLALCHEMY_COMMIT_ON_TEARDOWN	D:\00_project\blog\config.py	/^    SQLALCHEMY_COMMIT_ON_TEARDOWN = True$/;"	kind:variable	line:7
+SQLALCHEMY_DATABASE_URI	D:\00_project\blog\config.py	/^        'mysql:\/\/root:xungejiaoyu2016,08.20@10.1.0.47\/blog'    # 'mysql:\/\/root:123456@127.0.0.1\/blog'$/;"	kind:variable	line:25
+SQLALCHEMY_DATABASE_URI	D:\00_project\blog\config.py	/^        'mysql:\/\/root:xungejiaoyu2016,08.20@10.1.0.47\/blog'    # 'mysql:\/\/root:123456@127.0.0.1\/blog'$/;"	kind:variable	line:32
+SQLALCHEMY_DATABASE_URI	D:\00_project\blog\config.py	/^        'mysql:\/\/root:xungejiaoyu2016,08.20@10.1.0.47\/blog'    # 'mysql:\/\/root:123456@127.0.0.1\/blog'$/;"	kind:variable	line:37
+SQLAlchemy	D:\00_project\blog\app\__init__.py	/^from flask_sqlalchemy import SQLAlchemy$/;"	kind:namespace	line:13
+SQLAlchemy	D:\00_project\blog\hello.py	/^from flask_sqlalchemy import SQLAlchemy$/;"	kind:namespace	line:23
+Shell	D:\00_project\blog\hello.py	/^from flask_script import Shell$/;"	kind:namespace	line:18
+Shell	D:\00_project\blog\manage.py	/^from flask_script import Manager, Shell$/;"	kind:namespace	line:11
+StringField	D:\00_project\blog\app\auth\forms.py	/^from wtforms import StringField, PasswordField, BooleanField, SubmitField$/;"	kind:namespace	line:2
+StringField	D:\00_project\blog\app\main\forms.py	/^from wtforms import StringField, SubmitField$/;"	kind:namespace	line:2
+StringField	D:\00_project\blog\hello.py	/^from wtforms import StringField, SubmitField$/;"	kind:namespace	line:21
+SubmitField	D:\00_project\blog\app\auth\forms.py	/^from wtforms import StringField, PasswordField, BooleanField, SubmitField$/;"	kind:namespace	line:2
+SubmitField	D:\00_project\blog\app\main\forms.py	/^from wtforms import StringField, SubmitField$/;"	kind:namespace	line:2
+SubmitField	D:\00_project\blog\hello.py	/^from wtforms import StringField, SubmitField$/;"	kind:namespace	line:21
+TESTING	D:\00_project\blog\config.py	/^    TESTING = True$/;"	kind:variable	line:30
+TestMgr	D:\00_project\blog\test\test_debug.py	/^class TestMgr(unittest.TestCase):$/;"	kind:class	line:3
+TestingConfig	D:\00_project\blog\config.py	/^class TestingConfig(Config):$/;"	kind:class	line:29
+TextField	D:\00_project\blog\test\examples\micoblog\app\forms.py	/^from wtforms import TextField, BooleanField$/;"	kind:namespace	line:2
+TextField	D:\00_project\blog\test\examples\wtf0108\app\forms.py	/^from wtforms import TextField, BooleanField$/;"	kind:namespace	line:5
+TextField	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\forms.py	/^from wtforms import TextField, BooleanField$/;"	kind:namespace	line:4
+Thread	D:\00_project\blog\app\email.py	/^from threading import Thread$/;"	kind:namespace	line:8
+User	D:\00_project\blog\app\auth\forms.py	/^from ..models import User$/;"	kind:namespace	line:5
+User	D:\00_project\blog\app\auth\views.py	/^from ..models import User$/;"	kind:namespace	line:4
+User	D:\00_project\blog\app\models.py	/^class User(UserMixin, db.Model):$/;"	kind:class	line:16
+User	D:\00_project\blog\hello.py	/^class User(db.Model):$/;"	kind:class	line:74
+User	D:\00_project\blog\manage.py	/^from app.models import User, Role$/;"	kind:namespace	line:14
+UserMixin	D:\00_project\blog\app\models.py	/^from flask_login import UserMixin$/;"	kind:namespace	line:2
+ValidationError	D:\00_project\blog\app\auth\forms.py	/^from wtforms.validators import Required, Length, Email, Regexp, EqualTo, ValidationError$/;"	kind:namespace	line:3
+__init__.py	D:\00_project\blog\__init__.py	1;"	kind:file	line:1
+__init__.py	D:\00_project\blog\app\__init__.py	1;"	kind:file	line:1
+__init__.py	D:\00_project\blog\app\auth\__init__.py	1;"	kind:file	line:1
+__init__.py	D:\00_project\blog\app\main\__init__.py	1;"	kind:file	line:1
+__init__.py	D:\00_project\blog\test\__init__.py	1;"	kind:file	line:1
+__init__.py	D:\00_project\blog\test\examples\__init__.py	1;"	kind:file	line:1
+__init__.py	D:\00_project\blog\test\examples\micoblog\app\__init__.py	1;"	kind:file	line:1
+__init__.py	D:\00_project\blog\test\examples\wtf0108\app\__init__.py	1;"	kind:file	line:1
+__init__.py	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\__init__.py	1;"	kind:file	line:1
+__repr__	D:\00_project\blog\app\models.py	/^    def __repr__(self):$/;"	kind:member	line:12
+__repr__	D:\00_project\blog\app\models.py	/^    def __repr__(self):$/;"	kind:member	line:35
+__repr__	D:\00_project\blog\hello.py	/^    def __repr__(self):$/;"	kind:member	line:70
+__repr__	D:\00_project\blog\hello.py	/^    def __repr__(self):$/;"	kind:member	line:80
+__tablename__	D:\00_project\blog\app\models.py	/^    __tablename__ = 'roles'$/;"	kind:variable	line:7
+__tablename__	D:\00_project\blog\app\models.py	/^    __tablename__ = 'users'$/;"	kind:variable	line:17
+__tablename__	D:\00_project\blog\hello.py	/^    __tablename__ = 'roles'$/;"	kind:variable	line:65
+__tablename__	D:\00_project\blog\hello.py	/^    __tablename__ = 'users'$/;"	kind:variable	line:75
+app	D:\00_project\blog\hello.py	/^app = Flask(__name__)$/;"	kind:variable	line:29
+app	D:\00_project\blog\manage.py	/^app = create_app(os.getenv('FLASK_CONFIG') or 'default')$/;"	kind:variable	line:16
+app	D:\00_project\blog\test\examples\micoblog\app\__init__.py	/^app = Flask(__name__)$/;"	kind:variable	line:3
+app	D:\00_project\blog\test\examples\micoblog\app\views.py	/^from . import app$/;"	kind:namespace	line:2
+app	D:\00_project\blog\test\examples\micoblog\run.py	/^from app import app$/;"	kind:namespace	line:1
+app	D:\00_project\blog\test\examples\wtf0108\app\__init__.py	/^app = Flask(__name__)$/;"	kind:variable	line:3
+app	D:\00_project\blog\test\examples\wtf0108\app\views.py	/^from . import app$/;"	kind:namespace	line:1
+app	D:\00_project\blog\test\examples\wtf0108\run.py	/^from app import app$/;"	kind:namespace	line:7
+app	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\__init__.py	/^app = Flask(__name__)$/;"	kind:variable	line:4
+app	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\views.py	/^from . import app$/;"	kind:namespace	line:3
+app	D:\00_project\blog\test\examples\wtftmp2 - 副本\run.py	/^from app import app$/;"	kind:namespace	line:3
+auth	D:\00_project\blog\app\auth\__init__.py	/^auth = Blueprint('auth', __name__)$/;"	kind:variable	line:3
+auth	D:\00_project\blog\app\auth\views.py	/^from . import auth$/;"	kind:namespace	line:3
+auth_blueprint	D:\00_project\blog\app\__init__.py	/^    from .auth import auth as auth_blueprint$/;"	kind:namespace	line:40
+basedir	D:\00_project\blog\config.py	/^basedir = os.path.abspath(os.path.dirname(__file__))$/;"	kind:variable	line:3
+basedir	D:\00_project\blog\hello.py	/^basedir = os.path.abspath(os.path.dirname(__file__))$/;"	kind:variable	line:27
+bootstrap	D:\00_project\blog\app\__init__.py	/^bootstrap = Bootstrap()$/;"	kind:variable	line:17
+bootstrap	D:\00_project\blog\hello.py	/^bootstrap = Bootstrap(app)$/;"	kind:variable	line:51
+check_password_hash	D:\00_project\blog\app\models.py	/^from werkzeug.security import generate_password_hash, check_password_hash$/;"	kind:namespace	line:1
+config	D:\00_project\blog\app\__init__.py	/^from config import config$/;"	kind:namespace	line:14
+config	D:\00_project\blog\config.py	/^config = {$/;"	kind:variable	line:40
+config	D:\00_project\blog\migrations\env.py	/^config = context.config$/;"	kind:variable	line:9
+config.py	D:\00_project\blog\config.py	1;"	kind:file	line:1
+config.py	D:\00_project\blog\test\examples\micoblog\config.py	1;"	kind:file	line:1
+config.py	D:\00_project\blog\test\examples\wtftmp2 - 副本\config.py	1;"	kind:file	line:1
+context	D:\00_project\blog\migrations\env.py	/^from alembic import context$/;"	kind:namespace	line:2
+create_app	D:\00_project\blog\app\__init__.py	/^def create_app(config_name):$/;"	kind:function	line:26
+create_app	D:\00_project\blog\manage.py	/^from app import create_app, db$/;"	kind:namespace	line:13
+current_app	D:\00_project\blog\app\email.py	/^from flask import current_app, render_template$/;"	kind:namespace	line:10
+current_app	D:\00_project\blog\migrations\env.py	/^from flask import current_app$/;"	kind:namespace	line:20
+datetime	D:\00_project\blog\hello.py	/^from datetime import datetime$/;"	kind:namespace	line:11
+db	D:\00_project\blog\app\__init__.py	/^db = SQLAlchemy()$/;"	kind:variable	line:20
+db	D:\00_project\blog\app\models.py	/^from . import db, login_manager$/;"	kind:namespace	line:3
+db	D:\00_project\blog\hello.py	/^db = SQLAlchemy(app)$/;"	kind:variable	line:53
+db	D:\00_project\blog\manage.py	/^from app import create_app, db$/;"	kind:namespace	line:13
+email	D:\00_project\blog\app\auth\forms.py	/^    email = StringField('Email', validators=[Required(), Length(1, 64),$/;"	kind:variable	line:30
+email	D:\00_project\blog\app\auth\forms.py	/^    email = StringField('Email', validators=[Required(), Length(1, 64),$/;"	kind:variable	line:9
+email	D:\00_project\blog\app\models.py	/^    email = db.Column(db.String(64), unique=True, index=True)$/;"	kind:variable	line:19
+email.py	D:\00_project\blog\app\email.py	1;"	kind:file	line:1
+engine_from_config	D:\00_project\blog\migrations\env.py	/^from sqlalchemy import engine_from_config, pool$/;"	kind:namespace	line:3
+env.py	D:\00_project\blog\migrations\env.py	1;"	kind:file	line:1
+errors	D:\00_project\blog\app\main\__init__.py	/^from . import views, errors/;"	kind:namespace	line:12
+errors.py	D:\00_project\blog\app\main\errors.py	1;"	kind:file	line:1
+fileConfig	D:\00_project\blog\migrations\env.py	/^from logging.config import fileConfig$/;"	kind:namespace	line:4
+flash	D:\00_project\blog\app\auth\views.py	/^from flask import render_template, redirect, request, url_for, flash$/;"	kind:namespace	line:1
+flash	D:\00_project\blog\hello.py	/^from flask import Flask, render_template ,flash, redirect$/;"	kind:namespace	line:12
+flash	D:\00_project\blog\test\examples\micoblog\app\views.py	/^from flask import render_template, redirect, flash$/;"	kind:namespace	line:1
+flash	D:\00_project\blog\test\examples\wtf0108\app\views.py	/^from flask import render_template, flash, redirect$/;"	kind:namespace	line:2
+flash	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\views.py	/^from flask import render_template, flash, redirect$/;"	kind:namespace	line:4
+forms.py	D:\00_project\blog\app\auth\forms.py	1;"	kind:file	line:1
+forms.py	D:\00_project\blog\app\main\forms.py	1;"	kind:file	line:1
+forms.py	D:\00_project\blog\test\examples\micoblog\app\forms.py	1;"	kind:file	line:1
+forms.py	D:\00_project\blog\test\examples\wtf0108\app\forms.py	1;"	kind:file	line:1
+forms.py	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\forms.py	1;"	kind:file	line:1
+generate_password_hash	D:\00_project\blog\app\models.py	/^from werkzeug.security import generate_password_hash, check_password_hash$/;"	kind:namespace	line:1
+hello.py	D:\00_project\blog\hello.py	1;"	kind:file	line:1
+id	D:\00_project\blog\app\models.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	kind:variable	line:18
+id	D:\00_project\blog\app\models.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	kind:variable	line:8
+id	D:\00_project\blog\hello.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	kind:variable	line:66
+id	D:\00_project\blog\hello.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	kind:variable	line:76
+index	D:\00_project\blog\app\main\views.py	/^def index():$/;"	kind:function	line:6
+index	D:\00_project\blog\hello.py	/^def index():$/;"	kind:function	line:106
+index	D:\00_project\blog\test\examples\micoblog\app\views.py	/^def index():$/;"	kind:function	line:46
+index	D:\00_project\blog\test\examples\wtf0108\app\views.py	/^def index():$/;"	kind:function	line:8
+index	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\views.py	/^def index():$/;"	kind:function	line:9
+init_app	D:\00_project\blog\config.py	/^    def init_app(app):$/;"	kind:member	line:18
+internal_server_error	D:\00_project\blog\app\main\errors.py	/^def internal_server_error(e):$/;"	kind:function	line:16
+internal_server_error	D:\00_project\blog\hello.py	/^def internal_server_error(e):$/;"	kind:function	line:101
+load_user	D:\00_project\blog\app\models.py	/^def load_user(user_id):$/;"	kind:function	line:40
+logger	D:\00_project\blog\migrations\env.py	/^logger = logging.getLogger('alembic.env')$/;"	kind:variable	line:14
+logging	D:\00_project\blog\migrations\env.py	/^import logging$/;"	kind:namespace	line:5
+login	D:\00_project\blog\app\auth\views.py	/^def login():$/;"	kind:function	line:8
+login	D:\00_project\blog\test\examples\micoblog\app\views.py	/^def login():$/;"	kind:function	line:33
+login	D:\00_project\blog\test\examples\wtf0108\app\views.py	/^def login():$/;"	kind:function	line:11
+login	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\views.py	/^def login():$/;"	kind:function	line:13
+login_manager	D:\00_project\blog\app\__init__.py	/^login_manager = LoginManager()$/;"	kind:variable	line:22
+login_manager	D:\00_project\blog\app\models.py	/^from . import db, login_manager$/;"	kind:namespace	line:3
+login_required	D:\00_project\blog\app\auth\views.py	/^from flask_login import login_user, logout_user, login_required$/;"	kind:namespace	line:2
+login_user	D:\00_project\blog\app\auth\views.py	/^from flask_login import login_user, logout_user, login_required$/;"	kind:namespace	line:2
+logout	D:\00_project\blog\app\auth\views.py	/^def logout():$/;"	kind:function	line:21
+logout_user	D:\00_project\blog\app\auth\views.py	/^from flask_login import login_user, logout_user, login_required$/;"	kind:namespace	line:2
+mail	D:\00_project\blog\app\__init__.py	/^mail = Mail()$/;"	kind:variable	line:18
+mail	D:\00_project\blog\app\email.py	/^from . import mail$/;"	kind:namespace	line:13
+mail	D:\00_project\blog\hello.py	/^mail = Mail(app)$/;"	kind:variable	line:55
+main	D:\00_project\blog\app\main\__init__.py	/^main = Blueprint('main', __name__)$/;"	kind:variable	line:10
+main	D:\00_project\blog\app\main\errors.py	/^from . import main$/;"	kind:namespace	line:9
+main	D:\00_project\blog\app\main\views.py	/^from . import main$/;"	kind:namespace	line:2
+main_blueprint	D:\00_project\blog\app\__init__.py	/^    from .main import main as main_blueprint$/;"	kind:namespace	line:37
+make_shell_context	D:\00_project\blog\hello.py	/^def make_shell_context():$/;"	kind:function	line:89
+make_shell_context	D:\00_project\blog\manage.py	/^def make_shell_context():$/;"	kind:function	line:21
+manage.py	D:\00_project\blog\manage.py	1;"	kind:file	line:1
+manager	D:\00_project\blog\hello.py	/^manager = Manager(app)$/;"	kind:variable	line:50
+manager	D:\00_project\blog\manage.py	/^manager = Manager(app)$/;"	kind:variable	line:17
+migrate	D:\00_project\blog\hello.py	/^migrate = Migrate(app, db)$/;"	kind:variable	line:54
+migrate	D:\00_project\blog\manage.py	/^migrate = Migrate(app, db)$/;"	kind:variable	line:18
+models.py	D:\00_project\blog\app\models.py	1;"	kind:file	line:1
+moment	D:\00_project\blog\app\__init__.py	/^moment = Moment()$/;"	kind:variable	line:19
+moment	D:\00_project\blog\hello.py	/^moment = Moment(app)$/;"	kind:variable	line:52
+name	D:\00_project\blog\app\main\forms.py	/^    name = StringField('What is your name?', validators=[Required()])$/;"	kind:variable	line:7
+name	D:\00_project\blog\app\models.py	/^    name = db.Column(db.String(64), unique=True)$/;"	kind:variable	line:9
+name	D:\00_project\blog\hello.py	/^    name = StringField('What is your name?', validators=[Required()])$/;"	kind:variable	line:85
+name	D:\00_project\blog\hello.py	/^    name = db.Column(db.String(64), unique=True)$/;"	kind:variable	line:67
+openid	D:\00_project\blog\test\examples\micoblog\app\forms.py	/^    openid = TextField('openid', validators=[Required()])$/;"	kind:variable	line:7
+openid	D:\00_project\blog\test\examples\wtf0108\app\forms.py	/^    openid = TextField('openid', validators=[Required()])$/;"	kind:variable	line:13
+openid	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\forms.py	/^    openid = TextField('openid', validators=[Required()])$/;"	kind:variable	line:9
+os	D:\00_project\blog\config.py	/^import os$/;"	kind:namespace	line:2
+os	D:\00_project\blog\hello.py	/^import os$/;"	kind:namespace	line:9
+os	D:\00_project\blog\manage.py	/^import os$/;"	kind:namespace	line:8
+page_not_found	D:\00_project\blog\app\main\errors.py	/^def page_not_found(e):$/;"	kind:function	line:12
+page_not_found	D:\00_project\blog\hello.py	/^def page_not_found(e):$/;"	kind:function	line:96
+password	D:\00_project\blog\app\auth\forms.py	/^    password = PasswordField('Password', validators=[$/;"	kind:variable	line:15
+password	D:\00_project\blog\app\auth\forms.py	/^    password = PasswordField('Password', validators=[Required()])$/;"	kind:variable	line:32
+password	D:\00_project\blog\app\models.py	/^    def password(self):$/;"	kind:member	line:25
+password	D:\00_project\blog\app\models.py	/^    def password(self, password):$/;"	kind:member	line:29
+password2	D:\00_project\blog\app\auth\forms.py	/^    password2 = PasswordField('Confirm password', validators=[Required()])$/;"	kind:variable	line:17
+password_hash	D:\00_project\blog\app\models.py	/^    password_hash = db.Column(db.String(128))$/;"	kind:variable	line:22
+pool	D:\00_project\blog\migrations\env.py	/^from sqlalchemy import engine_from_config, pool$/;"	kind:namespace	line:3
+process_revision_directives	D:\00_project\blog\migrations\env.py	/^    def process_revision_directives(context, revision, directives):$/;"	kind:function	line:61
+redirect	D:\00_project\blog\app\auth\views.py	/^from flask import render_template, redirect, request, url_for, flash$/;"	kind:namespace	line:1
+redirect	D:\00_project\blog\hello.py	/^from flask import Flask, render_template ,flash, redirect$/;"	kind:namespace	line:12
+redirect	D:\00_project\blog\test\examples\micoblog\app\views.py	/^from flask import render_template, redirect, flash$/;"	kind:namespace	line:1
+redirect	D:\00_project\blog\test\examples\wtf0108\app\views.py	/^from flask import render_template, flash, redirect$/;"	kind:namespace	line:2
+redirect	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\views.py	/^from flask import render_template, flash, redirect$/;"	kind:namespace	line:4
+remember_me	D:\00_project\blog\app\auth\forms.py	/^    remember_me = BooleanField('Keep me logged in')$/;"	kind:variable	line:33
+remember_me	D:\00_project\blog\test\examples\micoblog\app\forms.py	/^    remember_me = BooleanField('remember_me', default=False)/;"	kind:variable	line:8
+remember_me	D:\00_project\blog\test\examples\wtf0108\app\forms.py	/^    remember_me = BooleanField('remember_me', default=False)$/;"	kind:variable	line:14
+remember_me	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\forms.py	/^    remember_me = BooleanField('remember_me', default=False)$/;"	kind:variable	line:10
+render_template	D:\00_project\blog\app\__init__.py	/^from flask import Flask, render_template$/;"	kind:namespace	line:9
+render_template	D:\00_project\blog\app\auth\views.py	/^from flask import render_template, redirect, request, url_for, flash$/;"	kind:namespace	line:1
+render_template	D:\00_project\blog\app\email.py	/^from flask import current_app, render_template$/;"	kind:namespace	line:10
+render_template	D:\00_project\blog\app\main\errors.py	/^from flask import render_template$/;"	kind:namespace	line:8
+render_template	D:\00_project\blog\app\main\views.py	/^from flask import render_template$/;"	kind:namespace	line:1
+render_template	D:\00_project\blog\hello.py	/^from flask import Flask, render_template ,flash, redirect$/;"	kind:namespace	line:12
+render_template	D:\00_project\blog\test\examples\micoblog\app\views.py	/^from flask import render_template, redirect, flash$/;"	kind:namespace	line:1
+render_template	D:\00_project\blog\test\examples\wtf0108\app\views.py	/^from flask import render_template, flash, redirect$/;"	kind:namespace	line:2
+render_template	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\views.py	/^from flask import render_template, flash, redirect$/;"	kind:namespace	line:4
+request	D:\00_project\blog\app\auth\views.py	/^from flask import render_template, redirect, request, url_for, flash$/;"	kind:namespace	line:1
+role_id	D:\00_project\blog\app\models.py	/^    role_id = db.Column(db.Integer, db.ForeignKey('roles.id'))$/;"	kind:variable	line:21
+role_id	D:\00_project\blog\hello.py	/^    role_id = db.Column(db.Integer, db.ForeignKey('roles.id'))$/;"	kind:variable	line:78
+run.py	D:\00_project\blog\test\examples\micoblog\run.py	1;"	kind:file	line:1
+run.py	D:\00_project\blog\test\examples\wtf0108\run.py	1;"	kind:file	line:1
+run.py	D:\00_project\blog\test\examples\wtftmp2 - 副本\run.py	1;"	kind:file	line:1
+run_migrations_offline	D:\00_project\blog\migrations\env.py	/^def run_migrations_offline():$/;"	kind:function	line:31
+run_migrations_online	D:\00_project\blog\migrations\env.py	/^def run_migrations_online():$/;"	kind:function	line:50
+send_async_email	D:\00_project\blog\app\email.py	/^def send_async_email(app, msg):$/;"	kind:function	line:16
+send_email	D:\00_project\blog\app\email.py	/^def send_email(to, subject, template, **kwargs):$/;"	kind:function	line:21
+send_email	D:\00_project\blog\hello.py	/^def send_email(to, subject, template, **kwargs):$/;"	kind:function	line:57
+session	D:\00_project\blog\hello.py	/^from flask import session$/;"	kind:namespace	line:13
+submit	D:\00_project\blog\app\auth\forms.py	/^    submit = SubmitField('Log In')$/;"	kind:variable	line:34
+submit	D:\00_project\blog\app\auth\forms.py	/^    submit = SubmitField('Register')$/;"	kind:variable	line:18
+submit	D:\00_project\blog\app\main\forms.py	/^    submit = SubmitField('Submit')$/;"	kind:variable	line:8
+submit	D:\00_project\blog\hello.py	/^    submit = SubmitField('Submit')$/;"	kind:variable	line:86
+sys	D:\00_project\blog\hello.py	/^import sys$/;"	kind:namespace	line:10
+target_metadata	D:\00_project\blog\migrations\env.py	/^target_metadata = current_app.extensions['migrate'].db.metadata$/;"	kind:variable	line:23
+tasks	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\test.py	/^tasks = Celery()/;"	kind:variable	line:3
+test	D:\00_project\blog\manage.py	/^def test():$/;"	kind:function	line:28
+test.py	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\test.py	1;"	kind:file	line:1
+test_a	D:\00_project\blog\test\test_debug.py	/^    def test_a(self):$/;"	kind:member	line:4
+test_debug.py	D:\00_project\blog\test\test_debug.py	1;"	kind:file	line:1
+unittest	D:\00_project\blog\manage.py	/^    import unittest$/;"	kind:namespace	line:30
+unittest	D:\00_project\blog\test\test_debug.py	/^import unittest$/;"	kind:namespace	line:1
+url_for	D:\00_project\blog\app\auth\views.py	/^from flask import render_template, redirect, request, url_for, flash$/;"	kind:namespace	line:1
+url_for	D:\00_project\blog\hello.py	/^from flask import url_for$/;"	kind:namespace	line:14
+username	D:\00_project\blog\app\auth\forms.py	/^    username = StringField('Username', validators=[$/;"	kind:variable	line:11
+username	D:\00_project\blog\app\models.py	/^    username = db.Column(db.String(64), unique=True, index=True)$/;"	kind:variable	line:20
+username	D:\00_project\blog\hello.py	/^    username = db.Column(db.String(64), unique=True, index=True)$/;"	kind:variable	line:77
+users	D:\00_project\blog\app\models.py	/^    users = db.relationship('User', backref='role', lazy='dynamic')$/;"	kind:variable	line:10
+users	D:\00_project\blog\hello.py	/^    users = db.relationship('User', backref='role', lazy='dynamic')$/;"	kind:variable	line:68
+validate_email	D:\00_project\blog\app\auth\forms.py	/^    def validate_email(self, field):$/;"	kind:member	line:20
+validate_username	D:\00_project\blog\app\auth\forms.py	/^    def validate_username(self, field):$/;"	kind:member	line:24
+verify_password	D:\00_project\blog\app\models.py	/^    def verify_password(self, password):$/;"	kind:member	line:32
+views	D:\00_project\blog\app\auth\__init__.py	/^from . import views/;"	kind:namespace	line:5
+views	D:\00_project\blog\app\main\__init__.py	/^from . import views, errors/;"	kind:namespace	line:12
+views	D:\00_project\blog\test\examples\micoblog\app\__init__.py	/^from . import views$/;"	kind:namespace	line:5
+views	D:\00_project\blog\test\examples\wtf0108\app\__init__.py	/^from . import views$/;"	kind:namespace	line:5
+views	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\__init__.py	/^from . import views/;"	kind:namespace	line:7
+views.py	D:\00_project\blog\app\auth\views.py	1;"	kind:file	line:1
+views.py	D:\00_project\blog\app\main\views.py	1;"	kind:file	line:1
+views.py	D:\00_project\blog\test\examples\micoblog\app\views.py	1;"	kind:file	line:1
+views.py	D:\00_project\blog\test\examples\wtf0108\app\views.py	1;"	kind:file	line:1
+views.py	D:\00_project\blog\test\examples\wtftmp2 - 副本\app\views.py	1;"	kind:file	line:1
+with_statement	D:\00_project\blog\migrations\env.py	/^from __future__ import with_statement$/;"	kind:namespace	line:1
