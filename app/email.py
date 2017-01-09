@@ -1,15 +1,6 @@
-# _*_ coding: utf-8 _*_
-"""
-  email.py
-  Desc: email tools
-  Maintainer: wangfm
-  CreateDate: 2016/12/28
-"""
 from threading import Thread
-
 from flask import current_app, render_template
-from flask_mail import Message
-
+from flask.ext.mail import Message
 from . import mail
 
 
