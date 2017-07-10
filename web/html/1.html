@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+        <p>22</p>
+    <table>
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>名称</th>
+                <th>设备类型</th>
+                <th>设备型号</th>
+                <th>地址</th>
+                <th>状态</th> 
+                <th>学校/教室</th>
+                <th>归属地</th>
+                <th>设备状态</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody id="schoolequipmenttab">
+            <tr>
+                <td>1</td>
+                <td><a onclick="turn('0462d5c3-c2ea-4963-bf81-3e3370107f49','72743714-0173-49b3-b46d-ee00413fd629','郑州一中','81教室','b4bcca2f-5350-4f35-aeaf-2218a906547d');">录播终端一体机10.1.0.81</a></td>
+                <td>录播终端一体机</td>
+                <td>MC1000</td>
+                <td>10.1.0.81</td>
+                <td>郑州一中/81教室</td>
+                <td>河南省</td>
+                <td class="eqStatus can">
+                    <div class="sta">在线</div>
+                    <div class="record" style="display:none">02ffec3c-e70c-45c4-9020-5223de029a09</div>
+                    <div class="record" style="display:none">2017年7月7 12:23:48</div>
+                </td>
+                <td><button type="button" onclick="javascript:modifyRole('02ffec3c-e70c-45c4-9020-5223de029a09','7c03a901-67a5-46b0-8054-1a22d276e6a5')"
+                        class="btn btn-primary">详情</button><button type="button" onclick="javascript:rebootEqlayer(this,'02ffec3c-e70c-45c4-9020-5223de029a09','1','0901')"
+                        class="btn btn-danger">关机</button><button type="button" onclick="javascript:rebootEqlayer(this,'02ffec3c-e70c-45c4-9020-5223de029a09','0','0901')"
+                        class="btn btn-warning">重启</button><button type="button" onclick="javascript:queryWatchUrl('02ffec3c-e70c-45c4-9020-5223de029a09','72743714-0173-49b3-b46d-ee00413fd629')"
+                        class="btn btn-primary">观摩地址</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a onclick="turn('13fbae5b-00ac-4bd7-9c49-aab59dfe6a13','72743714-0173-49b3-b46d-ee00413fd629','郑州一中','82教室','b4bcca2f-5350-4f35-aeaf-2218a906547d');">录播终端一体机10.1.0.82</a></td>
+                <td>录播终端一体机</td>
+                <td>MC1000</td>
+                <td>10.1.0.82</td>
+                <td>郑州一中/82教室</td>
+                <td>河南省</td>
+                <td class="eqStatus can">
+                    <div class="sta">在线</div>
+                    <div class="record" style="display:none">0eea845c-0bcf-4faa-8233-34a3ab03f08f</div>
+                    <div class="record" style="display:none">2017年7月7 12:23:48</div>
+                </td>
+                <td><button type="button" onclick="javascript:modifyRole('0eea845c-0bcf-4faa-8233-34a3ab03f08f','7c03a901-67a5-46b0-8054-1a22d276e6a5')"
+                        class="btn btn-primary">详情</button><button type="button" onclick="javascript:rebootEqlayer(this,'0eea845c-0bcf-4faa-8233-34a3ab03f08f','1','0901')"
+                        class="btn btn-danger">关机</button><button type="button" onclick="javascript:rebootEqlayer(this,'0eea845c-0bcf-4faa-8233-34a3ab03f08f','0','0901')"
+                        class="btn btn-warning">重启</button><button type="button" onclick="javascript:queryWatchUrl('0eea845c-0bcf-4faa-8233-34a3ab03f08f','72743714-0173-49b3-b46d-ee00413fd629')"
+                        class="btn btn-primary">观摩地址</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a onclick="turn('664da5bc-4de2-4e4e-879f-b5cc9c517e08','a1b61ae2-c90b-45c3-883e-db4be0afafbd','郑州二中','131教室','b4bcca2f-5350-4f35-aeaf-2218a906547d');">终端10.1.41.131</a></td>
+                <td>终端</td>
+                <td>Group系列</td>
+                <td>10.1.41.131</td>
+                <td>郑州二中/131教室</td>
+                <td>河南省</td>
+                <td class="eqStatus nocan">
+                    <div class="sta">离线</div>
+                    <div class="record" style="display:none">404c18e7-db3d-40b7-a90b-454196aaffe9</div>
+                    <div class="record" style="display:none">2017年7月7 12:23:48</div>
+                </td>
+                <td><button type="button" onclick="javascript:modifyRole('404c18e7-db3d-40b7-a90b-454196aaffe9','da1d4c26-f98d-4d78-a30a-96746ae7a345')"
+                        class="btn btn-primary">详情</button><button type="button" onclick="javascript:rebootEqlayer(this,'404c18e7-db3d-40b7-a90b-454196aaffe9','1','0802')"
+                        class="btn btn-danger">休眠</button><button type="button" onclick="javascript:rebootEqlayer(this,'404c18e7-db3d-40b7-a90b-454196aaffe9','0','0802')"
+                        class="btn btn-warning">重启</button><button type="button" onclick="javascript:queryWatchUrl('404c18e7-db3d-40b7-a90b-454196aaffe9','a1b61ae2-c90b-45c3-883e-db4be0afafbd')"
+                        class="btn btn-primary">观摩地址</button></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a onclick="turn('f81f5d2d-8e0f-4408-862a-73d2275732f0','a1b61ae2-c90b-45c3-883e-db4be0afafbd','郑州二中','130教室','b4bcca2f-5350-4f35-aeaf-2218a906547d');">终端10.1.0.130</a></td>
+                <td>终端</td>
+                <td>Group系列</td>
+                <td>10.1.0.130</td>
+                <td>郑州二中/130教室</td>
+                <td>河南省</td>
+                <td class="eqStatus nocan">
+                    <div class="sta">离线</div>
+                    <div class="record" style="display:none">37cbd1fa-8a8f-457a-8c5c-2a45a40a8dee</div>
+                    <div class="record" style="display:none">2017年7月7 12:23:48</div>
+                </td>
+                <td><button type="button" onclick="javascript:modifyRole('37cbd1fa-8a8f-457a-8c5c-2a45a40a8dee','da1d4c26-f98d-4d78-a30a-96746ae7a345')"
+                        class="btn btn-primary">详情</button><button type="button" onclick="javascript:rebootEqlayer(this,'37cbd1fa-8a8f-457a-8c5c-2a45a40a8dee','1','0802')"
+                        class="btn btn-danger">休眠</button><button type="button" onclick="javascript:rebootEqlayer(this,'37cbd1fa-8a8f-457a-8c5c-2a45a40a8dee','0','0802')"
+                        class="btn btn-warning">重启</button><button type="button" onclick="javascript:queryWatchUrl('37cbd1fa-8a8f-457a-8c5c-2a45a40a8dee','a1b61ae2-c90b-45c3-883e-db4be0afafbd')"
+                        class="btn btn-primary">观摩地址</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
