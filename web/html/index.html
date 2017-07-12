@@ -9,7 +9,18 @@
 </head>
 
 <body>
+    <script>
+    window.onload=function(){
+        alert("test")
+        var btn =document.getElementById('btn');
+        var text = document.getElementById("text");
 
+        console.log(btn.value);
+        console.log(text.value);
+    };
+    </script>
+    <input type="button" id="btn" value="button" />
+    <input type="text" name="text" id="text" value="this is text">
 </body>
 
 </html>
