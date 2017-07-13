@@ -1,5 +1,6 @@
 # -*- coding=utf-8 -*-
 
+
 class Hint(object):
     def __init__(self, aint):
         self.aint = aint
@@ -9,11 +10,13 @@ class Hint(object):
 
     def set_aint(self, value):
         if isinstance(value, int):
-            self.__aint = value
+            self.__aint = 10
         else:
             raise ValueError('must be int')
 
     aint = property(get_aint, set_aint)
+
+
 
 
 def test():
@@ -23,4 +26,3 @@ def test():
 
 if __name__ == '__main__':
     test()
-    

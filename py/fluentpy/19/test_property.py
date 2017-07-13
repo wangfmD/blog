@@ -1,7 +1,7 @@
 # -*- coding=utf-8 -*-
-# 1,property 必须是新式类 
+# 1,property 必须是新式类
 # 老式的写法实例属性在 set 和get方法中必须加 "__" 否则会  File "D:\01_gitgub\notes\py\fluentpy\19\test_property.py", line 17, in set_weigth
-    # self.weigth = value
+# self.weigth = value
 # RuntimeError: maximum recursion depth exceeded while calling a Python object
 
 
@@ -18,7 +18,7 @@ class LineItem_v0(object):
     def weight(self):  # ➌
         return self._weight  # ➍
 
-    @weight.setter   # ➎
+    @weight.setter  # ➎
     def weight(self, value):
         if value > 0:
             self._weight = value  # ➏
@@ -43,6 +43,7 @@ class LineItem(object):
             self._weigth = value
         else:
             raise ValueError("weigth must be > 0")
+
     weigth = property(get_weigth, set_weigth)
 
 
@@ -80,6 +81,7 @@ class P(object):
             raise ValueError('age must be > 0')
         else:
             self._age = value
+
     age = property(get_age, set_age)
 
 
@@ -97,4 +99,3 @@ def test_p():
 
 if __name__ == '__main__':
     test()
-
