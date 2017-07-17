@@ -36,6 +36,7 @@ class C(object):
     def foo(self):
         return "hello"
 
+
 if __name__ == "__main__":
     test_a()
     # c = C()

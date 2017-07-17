@@ -6,4 +6,4 @@ workspace.xml
 *.bat
 .settings
 tags
-.vscode
+*.vscode
