@@ -18,10 +18,18 @@ class Hint(object):
 
 
 
+class H(object):
+    def __init__(self, a):
+        self.name = a
+    
+    @property
+    def get_name(self):
+        return self.name + "NAME"
+
 
 def test():
-    a = Hint('a')
-    print a.aint
+    a = H('a')
+    print a.name
 
 
 if __name__ == '__main__':
