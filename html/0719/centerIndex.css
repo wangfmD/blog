@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+.headerCon,.footer .footerContent,.picCon,.kkCon,#container,.filterbar,.ddLoading,.figureCon,.inkPhoBox,.inkPhoBox .smImgBox{ width:1210px;}
+.headerCon ul li{ margin-right:20px;}
+.filterbar{ width:1192px;}
+/*美女内页*/
+.kkClass{width:1160px;}
+.inArea span{ width: 1080px;}
+.beautyUl li a img{ width:185px;}
+.headerCon ul.headTitle li a{ padding:0px 10px;}
+.beautyUl li a.lblName{
+    height:35px; line-height:35px;overflow: hidden;
+    width: 171px;}
+/*壁纸页面*/
+#container ul{width:290px; margin-right:16px; }
+
+#container ul li {
+   margin-bottom:16px;
+}
+#container ul li img{width:290px;}
+.wallCate div span.resoSpan {
+    width: 1060px;
+}
+/*footer*/
+.footer dl {
+    padding: 10px 23px 0 12px;
+}
+/*图片内页*/
+.insideLeft .insideAdvert,.insideLeft .insideAdvert img,.insideLeft .beauRecoms,.figureCon .insideLeft{ width:889px;}
+.beauRecoms ul li a img{ width:200px;}
+.smImgBoxs{ width:889px;}
+.listBoxs{ width:788px;}
+#picBoxs .prev{ left:10px;}
+#picBoxs .next{ right:10px;}
+#picBoxs .cfs,#picBoxs .cf li,#picBoxs .cf li img{ width:739px;}
+
+
+/*#picBoxs .prev, #picBoxs .next{height:462px;}*/
+/*美女浏览页*/
+.inkPhoBox .mod18 .listBox{ width:1100px;}
+.inkPhoBox .bigImgBox{ margin: 40px auto 40px 163px;}
+/*首页*/
+.picRight,.focus .shadow,.focus img,.focus{ width:917px;}
+.focus img,.focus{height: 343px;}
+.picList{ width:913px;}
+.picList ul{ height:296px; margin-left:21px;}
+.picList ul li{ margin-right:23px; }
+.scrolllist{
+    width: 1208px;
+    margin-top:10px;
+}
+.scrolllist .imglist_w{
+    width: 1120px;
+    margin-left: 50px;
+}
+
+.no_meinv_pic .no_meinv.girlcons .prevBtn, .no_meinv_pic .no_meinv.girlcons .nextBtn{
+    margin: 45px 10px 0px 4px;
+}
+/*.no_meinv_pic .no_meinv.girlcons .nextBtn{
+    background: url(../images/next.png) no-repeat -252px -49px;
+}*/
+.no_meinv_pic .beautyCon .jiaJie,.no_meinv_pic .girlcons .userCon strong{
+    width:380px;
+}
+
+.main-left .picList{
+    width:auto;
+}
+.main-left .picList ul{
+    height: auto;
+}
+.main-left .picList ul:after{content:".";display:block;height:0;clear:both;visibility:hidden}

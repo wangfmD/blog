@@ -17,14 +17,21 @@ class Hint(object):
     aint = property(get_aint, set_aint)
 
 
-
 class H(object):
     def __init__(self, a):
         self.name = a
-    
+
     @property
     def get_name(self):
         return self.name + "NAME"
+
+
+class Claz(object):
+    data = 'the class data attr'
+
+    @property
+    def prop(self):
+        return 'the prop value'
 
 
 def test():
